@@ -922,7 +922,7 @@ transition: all .5s;
   left: 0;
 }
 
-li a{
+/* li a{ */
   /* display:inline-block; */
   /* padding-left: 4rem; */
   /* color: rgb(23, 146, 211); */
@@ -937,7 +937,7 @@ li a{
   font-size: 0.9rem;
 
   text-transform: uppercase; */
-}
+/* } */
 
 li a:hover{
   color: #ff9900;

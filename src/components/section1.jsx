@@ -6,6 +6,9 @@ import Projects from "./projects.jsx";
 
 
 function Section1() {
+    const handleClick = () => {
+        window.location.href = '/https://drive.google.com/file/d/1RFEiHg3zSw0X9Hw7DpObb0P4TIlZe_RS/view?usp=drive_link'; // Change '/destination' to your desired URL
+      };
     return (
         <>
             <div className="first-div" ><a href="#" id="Home"></a>
@@ -43,15 +46,33 @@ function Section1() {
 
                         <div className="description">
                         <p>
-                        An innovative software engineer well versed in designing, building and deploying 
+                        An innovative software developer well versed in designing, building and deploying 
                         modern frontend and blockchain architecture.
                         Looking forward to working for an organization that aims to build next generation of 
                         decentralized financial products.
                         </p>
                         </div>
+
+
+
+
+
+
+
+  
+    <button onClick={handleClick}>
+      Click Me
+    </button>
+  
+
+
+
+
+
+
                         <div className="cv-btn">
-                        <button className="cv-button">Cover Letter</button>
-                        <button className="cv-button">Resume</button>
+                        <button className="cv-button" onClick={handleClick} target="_blank">Cover Letter</button>
+                        <button className="cv-button" onclick="href='https://example.com'">Resume</button>
                         </div>
                     </div>
 
