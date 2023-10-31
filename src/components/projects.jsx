@@ -29,7 +29,7 @@ function Projects() {
           <div className="project-1">
             <a className="img-3 img-p " href="https://lolubolarinwa.hashnode.dev/understanding-blockchain-consensus-mechanisms" target="_blank"/>
             <div className="project-description">
-              <h3>Consensu Algorithms</h3>
+              <h3>Consensus Algorithms</h3>
               <p>
               My article delves into pivotal consensus mechanisms highlighting 
               Ethereum's Proof of Work and Proof of Stake. This showcases my 

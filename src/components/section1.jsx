@@ -7,7 +7,7 @@ import Projects from "./projects.jsx";
 
 function Section1() {
     const handleClick = () => {
-        window.location.href = '/https://drive.google.com/file/d/1RFEiHg3zSw0X9Hw7DpObb0P4TIlZe_RS/view?usp=drive_link'; // Change '/destination' to your desired URL
+        // window.location.href = 'https://drive.google.com/file/d/1RFEiHg3zSw0X9Hw7DpObb0P4TIlZe_RS/view?usp=drive_link'; 
       };
     return (
         <>
@@ -59,20 +59,16 @@ function Section1() {
 
 
 
-  
-    <button onClick={handleClick}>
-      Click Me
-    </button>
-  
-
-
 
 
 
 
                         <div className="cv-btn">
+                        <a href="https://drive.google.com/file/d/1RFEiHg3zSw0X9Hw7DpObb0P4TIlZe_RS/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+
                         <button className="cv-button" onClick={handleClick} target="_blank">Cover Letter</button>
-                        <button className="cv-button" onclick="href='https://example.com'">Resume</button>
+                        <button className="cv-button" onclick={handleClick} target="_blank">Resume</button>
+                        </a>
                         </div>
                     </div>
 
