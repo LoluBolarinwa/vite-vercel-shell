@@ -37,9 +37,9 @@ function Projects() {
               </p>
             </div>
           </div>
-          
+
           <div className="project-1">
-            <a className="img-3 img-p " href="https://lolubolarinwa.hashnode.dev/understanding-blockchain-consensus-mechanisms" target="_blank"/>
+            <a className="img-3 img-p " href="https://lolubolarinwa.hashnode.dev/gas-optimization-standards-in-solidity" target="_blank"/>
             <div className="project-description">
               <h3>Consensus Algorithms</h3>
               <p>
