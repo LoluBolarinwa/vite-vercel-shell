@@ -568,7 +568,7 @@ h1{
   align-items: center;
   margin-bottom: 100px;
   /* background-color:white; */
-  height: 150vh;
+  height: 250vh;
 }
 
 /* #proj-cont{ */
@@ -580,7 +580,7 @@ h1{
 
 .project-parentDiv{
   width: 60vw;
-  height: 150vh;
+  height: 240vh;
   /* background-color: #916bbf; */
   display: flex;
   justify-content:center;
