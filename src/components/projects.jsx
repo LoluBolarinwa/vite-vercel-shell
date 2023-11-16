@@ -39,13 +39,13 @@ function Projects() {
           </div>
 
           <div className="project-1">
-            <a className="img-3 img-p " href="https://lolubolarinwa.hashnode.dev/gas-optimization-standards-in-solidity" target="_blank"/>
+            <a className="img-4 img-p " href="https://lolubolarinwa.hashnode.dev/gas-optimization-standards-in-solidity" target="_blank"/>
             <div className="project-description">
-              <h3>Consensus Algorithms</h3>
+              <h3>Gas Optimization Standards in Solidity</h3>
               <p>
-              My article delves into pivotal consensus mechanisms highlighting 
-              Ethereum's Proof of Work and Proof of Stake. This showcases my 
-              expertise in blockchain technology and technical communication skills.
+              In this article I expand on the various factors that influence high gas fees
+             and what developers can do to ensure they develop DApps using good Solidity 
+              coding practices and how to avoid other factors not in their locus of control.
               </p>
             </div>
           </div>
