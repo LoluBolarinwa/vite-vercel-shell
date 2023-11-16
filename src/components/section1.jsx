@@ -86,7 +86,7 @@ function Section1() {
 
             <div className="cv-btn">
               <a
-                href="https://drive.google.com/file/d/1RFEiHg3zSw0X9Hw7DpObb0P4TIlZe_RS/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1YEotNixgZ6GXWCnxUBvz3fP6KwzcWlAM/view"
                 target="_blank"
                 rel="noopener noreferrer"
               >
