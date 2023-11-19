@@ -21,10 +21,14 @@ function Section2() {
             contracts for Layer2 Scaling solutions and Rollups.
           </p>
           <p>
-            My journey into web3 began late winter of 2017 when I ventured into
+            {/* My journey into web3 began late winter of 2017 when I ventured into
             bitcoin purchase and forgot about it. Remembered about it in 2021
-            and converted it to fiat. This opened my eyes to the potential of
-            Bitcoin as a store of value that could transform the financial
+            and converted it to fiat. This opened my eyes to the potential of */}
+            My Journey into web3 began as after graduation from the university and 
+            stumbling on the possibility that the blockchain provides to the each individual.
+            It is a system that embodies the freedom of the human spirit and its ability to
+            overcome difficulty and excel in the presence of adversity.
+            Bitcoin as a store of value has the capacity to transform the financial
             sector. It made me curious. So I researched about the type of
             internet architecture that kept it secure and running, and found
             Blockchain in the middle of it all. This led me down the web3 rabbit
