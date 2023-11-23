@@ -22,7 +22,7 @@ body {
 
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background: rgb(13,69,102);                                                    /*rgb(6, 31, 60)*/
-  background:#093049 radial-gradient(circle at 30% 10%, #0f4e73 7%, #093049 15%, rgb(2, 18, 36) 80%);
+  background: #093049 radial-gradient(circle at 30% 10%, #0f4e73 7%, #093049 15%, rgb(2, 18, 36) 80%);
   /* background: radial-gradient(circle at 30% 15%, #0a3853 7%, #041f2f 15%, rgb(0, 4, 9) 80%); */
 
 /* font-family: 'Cantarell', sans-serif; */
@@ -40,8 +40,6 @@ body {
 *{
   box-sizing: border-box;
   scrollbar-color: #0d4566 #b7d8fb;       
-  
-
 }
 
 body::-webkit-scrollbar{
@@ -761,10 +759,28 @@ background-color:#ff9900;
   /* padding-top: 0; */
 /* } */
 
+.socials-mobile-block{
+  /* background-color: indigo; */
+  display: flex;
+  /* width: 70%; */
+  margin: 0 auto 2rem;
+  padding-right: 300px;
+  justify-content: center;
+  /* align-items: center; */
+}
 
 .socials-mobile{
-  visibility: hidden;
+  /* visibility: hidden; */
   /* all: unset; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: pink; */
+
+}
+
+.socials-mobile p{
+  font-size: 2rem;
+  margin: 0;
 }
 
 
@@ -1226,6 +1242,18 @@ li a:hover{
 }
 
 
+.socials-mobile-block{
+  /* background-color: indigo; */
+  /* display: flex; */
+  /* width: 70%; */
+  /* margin: 0px auto; */
+  padding-right: 0px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+
+
   /* Floating Social Icons */
   #socials-mobile{
     /* background-color: indigo; */
@@ -1264,11 +1292,35 @@ li a:hover{
   /* color: #916bbf; */
 }
 
-/* .socials-mobile svg{
-  color: white;
-  fill: #b7d8fb;
+.socials-mobile svg{
+  width: 50px;
+  height: 50px;
+  
 }
-.svg-socials svg:hover{
+.socials-mobile p{
+  font-size: 1.5rem;
+  text-align: center;
+
+   background: linear-gradient(135deg, #ff0032, #fed90f, #00a2ff,#09f1b8,#ff0032, #fed90f, #00a2ff,#09f1b8);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+  animation: gradient 8s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+ 
+}
+/* .svg-socials svg:hover{
   color: #ff9900;
 } */
 

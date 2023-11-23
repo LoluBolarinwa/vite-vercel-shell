@@ -130,6 +130,8 @@ function Section1() {
         <Socialmobile />
 
         <Projects />
+        <Socialmobile />
+
       </div>
     </>
   );
