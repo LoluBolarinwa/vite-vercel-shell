@@ -566,7 +566,7 @@ h1{
   display:flex;
   justify-content:center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
   /* background-color:white; */
   height: 250vh;
 }
@@ -780,7 +780,30 @@ background-color:#ff9900;
 
 .socials-mobile p{
   font-size: 2rem;
-  margin: 0;
+  margin: 50px 0 0 0;
+  
+  background: linear-gradient(135deg, #ff0032, #fed90f, #00a2ff,#09f1b8,#ff0032, #fed90f, #00a2ff,#09f1b8);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+  animation: gradient 8s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+ 
+}
+
+.socials-mobile svg:hover{
+fill: #ff9900;
 }
 
 
@@ -1292,11 +1315,8 @@ li a:hover{
   /* color: #916bbf; */
 }
 
-.socials-mobile svg{
-  width: 50px;
-  height: 50px;
-  
-}
+
+
 .socials-mobile p{
   font-size: 1.5rem;
   text-align: center;
@@ -1320,6 +1340,11 @@ li a:hover{
   }
  
 }
+
+.socials-mobile svg:hover{
+fill: #ff9900;
+}
+
 /* .svg-socials svg:hover{
   color: #ff9900;
 } */
