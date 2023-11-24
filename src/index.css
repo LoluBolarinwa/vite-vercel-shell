@@ -408,17 +408,18 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   display: flex;
   width: 75%;
   /* margin-top:0rem; */
-  /* margin: 0 auto ; */
-  /* padding-top: 7rem; */
+  margin: 0 auto;
+  /* padding-left:11rem; */
+  padding-bottom: 2rem;
 }
 
 .icons{
   display: flex;
   width: 75%;
-  margin: 0 auto 2rem ;
+  /* margin: 0 auto  ; */
   justify-content: space-between;
 
-  /* padding-top: 7rem; */
+  /* padding-right: 2rem; */
   /* width:2rem; */
   /* height:2rem; */
   /* padding:0 1rem; */
@@ -516,7 +517,8 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   font-family: 'Nunito', sans-serif;
   font-size: 1.1rem;
   color:  rgb(254, 254, 255);
-  letter-spacing: 1px;
+  letter-spacing: 1.3px;
+  line-height: 23.5px;
   height: auto;
   padding: 35px;
   padding-top: 8px;
@@ -1016,7 +1018,7 @@ li a:hover{
   
 
   .name-intro{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .name{
@@ -1172,6 +1174,7 @@ li a:hover{
   .skill-tools{
     /* display: flex; */
     width: 100%;
+  padding: 0rem;
     /* margin: 0 auto ; */
     /* padding-top: 7rem; */
   }

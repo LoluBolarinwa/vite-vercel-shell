@@ -25,7 +25,7 @@ function Section2() {
             bitcoin purchase and forgot about it. Remembered about it in 2021
             and converted it to fiat. This opened my eyes to the potential of */}
             My Journey into web3 began after graduation from the university and 
-            stumbling on the possibility that the blockchain provides to the each individual.
+            stumbling on the possibility that blockchain provides to the each individual.
             It is a system that embodies the freedom of the human spirit and its ability to
             overcome difficulty and excel in the presence of adversity.
             Bitcoin as a store of value has the capacity to transform the financial
