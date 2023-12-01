@@ -5,7 +5,7 @@ function Projects() {
         <a href="#" id="Portfolio"></a>
         <div className="project-parentDiv">
 
-          <div className="project-1">
+          {/* <div className="project-1">
             <a className="img-2 img-p " href="https://lolubolarinwa.github.io/weather-app-project-/" target="_blank"/>
             <div className="project-description">
               <h3>API Forecaster Weather </h3>
@@ -14,7 +14,7 @@ function Projects() {
               robust API integration, emphasizing efficient HTTP requests and data retrieval.
               </p>
             </div>
-          </div>
+          </div> */}
 
 
           <div className="project-1">
